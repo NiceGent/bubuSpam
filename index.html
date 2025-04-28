@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <title>My Annoying Popup</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Learning to code? This is the most important thing you will ever read!</h1>
+        </header>
+
+        <main>
+            <ul id="listy">
+                <li id="green">💰Land a job with a 6 figure salary</li>
+                <li id="yellow">💻Master JavaScript in 3 hours</li>
+                <li id="cyan">⚛️Learn React in 10 minutes</li>
+                <li id="pink">☕ Be a NodeJS Dev by lunchtime</li>
+            </ul>
+
+            <h2>My subliminal learning technique worked for Mark Zuckerberg and Albert Einstein, and it can work for you!</h2>
+
+            <img src="images/bugatti.jpg" alt="picture of a sports car"/>
+
+            <p>Want a great job in tech? Want a six-figure salary? Then you have come to the right place. I am going to tell you all
+				you need to know to get all of that and much more, without you lifting a finger. You can learn passively. Just sit back,
+				close your eyes, and let the sound of my voice make the code sink deep into your brain.</p>
+        </main>
+
+        <footer>
+            <p>This website was made by Bubu 28/04/2025</p>
+        </footer>
+
+        <div id="modal" class="modal">
+            <h2>We <span id="heart">&#10084</span> Your Data!</h2>
+            <button id="close-button" disabled>X</button>
+            <p id="modal-text-input">we have a strict policy on
+                tracking and spamming: we'll
+                definitely track you, and we'll
+                defintely spam you. To use this
+                site, enter your name and email
+                address and accept our ridculous
+                terms and conditions.
+            </p>
+
+            <form id ="input-form">
+                <input class="form-input" name="name" type="text" aria-label="full name" placeholder="Enter your full name" required/>
+                <input class="form-input" name="email" type="email" aria-label="email address" placeholder="Enter your email" required/>
+
+                <div id="form-buttons" class="form-buttons form-button-reverse">
+                    <input name="accept" type="submit" aria-label="accept button" value="accept" class="form-button" id="accept">
+                    <input name="decline" type="button" aria-label="decline button" value="decline" class="form-button" id="decline">
+                </div>
+            </form>
+        </div>
+
+    </body>
+    <script src="script.js"></script>
+</html>
