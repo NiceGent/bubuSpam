@@ -16,8 +16,8 @@ declineBtn.addEventListener("mouseover", function() {
     formButtons.classList.toggle("form-button-reverse");
 })
 
-acceptBtn.addEventListener("click", function(event) {
-    event.preventDefault()
+inputForm.addEventListener("submit", function(event) {
+    event.preventDefault();
 
     const submittedData = new FormData(inputForm)
 
@@ -36,11 +36,11 @@ acceptBtn.addEventListener("click", function(event) {
         modalText.innerHTML = ` 
                         <img src="images/dudu.png" alt="loading gif" id="bubu"/>
 
-                        <p>Thank You <span class="input-name">${userInputName}</span>, 
+                        <p class="small">Thank You <span class="input-name">${userInputName}</span>, 
                             Your Email address <span class="input-name">${userInputEmail}</span> is now on Mr Bubu's database
                         </p>
         
-                        <p>Mr Bubu will now send you SPAM & JUNK</p>
+                        <p class="small">Mr Bubu will now send you SPAM & JUNK</p>
                         `
 
         modalCloseBtn.disabled = false;

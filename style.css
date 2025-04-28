@@ -1,5 +1,5 @@
 body {
-    width: 500px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -12,7 +12,7 @@ h1 {
 }
 
 img {
-    max-width: 500px;
+    max-width: 350px;
 }
 
 #listy {
@@ -182,4 +182,8 @@ footer p {
     margin: 0 auto;
     display: block;
     text-align: center;
+}
+
+.small {
+    font-size: 16px;
 }
